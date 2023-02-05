@@ -1,8 +1,8 @@
 
 import './App.css';
-import { useState } from 'react'
-
-
+import { useState } from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
 
 const TrafficLight = () => {
   const [color, setColor] = useState("");
